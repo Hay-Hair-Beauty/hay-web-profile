@@ -1,0 +1,536 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar{
+	margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding-block: 1rem;
+    margin-inline: auto;
+    background-color: white;
+    padding: 20px 150px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.logo img {
+    width: 100px;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.tombol{
+	display: none;
+	color: rgb(8, 8, 8);
+	font-size: 14pt;			
+}
+.tombol:hover{
+	cursor: pointer;
+}
+.menu{
+	margin: 0;
+	display: flex;
+	list-style: none;
+    justify-content: center;
+    gap: 2rem 1rem;
+	padding: 0;			
+}
+.menu li{
+	list-style-type: none;
+
+}
+.menu li a{
+    text-decoration: none;
+	padding:10px;
+    font-size: 17px;
+    color: #3D4866;
+	display: inline-block;
+}
+.menu li a:hover {
+    border-bottom: 2px solid #F4AF1B;
+    color: #F4AF1B;
+}
+
+nav .logo img {
+    width: 100px;
+}
+nav .navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem 1rem;
+}
+nav .navbar li {
+    list-style-type: none;
+}
+nav .navbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    transition: color 0.15s ease-in;
+    position: relative; 
+}
+
+nav .navbar li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease-in;
+}
+
+nav .navbar li a:hover::after {
+    border-color: #F4AF1B;
+}
+
+nav .navbar li a:hover {
+    color: #F4AF1B; 
+} */
+
+main {
+    padding: 20px 0;
+    gap: 2rem;
+    align-items: center;
+    margin-inline: auto;
+}
+.content {
+    margin-top: 150px;
+}
+.content article.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-description h1 {
+    font-size: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    color: #3D4866;
+    margin-bottom: 10px;
+}
+.home-description p {
+    font-size: 16px;
+    margin-top: 0;
+}
+.home-description button {
+    background-color: #F4AF1B;
+    color: white;
+    padding: 10px 25px; 
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    transition: background-color 0.3s ease;
+    /* margin-bottom: 100px; */
+}
+.home-description button:hover {
+    background-color: #2a3550; 
+}
+
+.home-description button:focus {
+    background-color: #556080; 
+    outline: none;
+}
+.home-image img {
+    width: 550px;
+    padding-left: 50px;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    margin-top: 90px;
+    background: linear-gradient(to left, rgba(85, 96, 128, 1), rgba(85, 96, 128, 0.8));
+}
+.about-desc {
+    margin-bottom: 100px;
+}
+.about-desc h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.about-desc p {
+    font-size: 20px;
+    color: white;
+    padding: 0 50px;
+    text-align: justify;
+    margin-top: 80px;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+.about-image img {
+    width: 100%;
+    width: 400px;
+    height: auto;
+}
+.about-desc {
+    flex: 2;
+    padding: 20px;
+}
+
+.about2 {
+    background-color: #f3f4f6;
+}
+.about2 .item {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    justify-content: center;
+}
+
+.about-items img {
+    margin-top: 20px;
+    width: 70px;
+    border-radius: 10px;
+}
+.about-items h3 {
+    font-size: 20px;
+    color: #3D4866;
+}
+.about-items p {
+    font-size: 16px;
+    color: #556080;
+}
+.content article.about3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.about3-description h1 {
+    font-size: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    color: #3D4866;
+    margin-bottom: 10px;
+}
+.about3-description p {
+    font-size: 16px;
+    margin-top: 0;
+}
+.about3-description button {
+    background-color: #F4AF1B;
+    color: white;
+    padding: 10px 25px; 
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    transition: background-color 0.3s ease;
+    margin-bottom: 100px;
+}
+.about3-description button:hover {
+    background-color: #2a3550; 
+}
+
+.about3-description button:focus {
+    background-color: #556080; 
+    outline: none;
+}
+.about3-image img {
+    width: 550px;
+    padding-left: 50px;
+}
+.card {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+}
+.support {
+    background-color: #f3f4f6;
+    padding: 20px;
+}
+.support-title h1 {
+    color: #2a3550;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+.support.logos {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+    position: relative;
+}
+.logo-slide {
+    display: flex;
+    animation: slide 20s linear infinite;
+    width: calc(200%);
+}
+
+.logo-slide img {
+    align-items: center;
+    width: 220px;
+    object-fit: contain;
+    /* height: auto; */
+    padding: 0 40px;
+    aspect-ratio: 3/2;
+    margin: 50px 10px;
+    cursor: pointer;
+}
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.paused {
+    animation-play-state: paused;
+}
+.pedia {
+    padding: 0 100px;
+    justify-content: center;
+    margin-bottom: 50px;
+    overflow-x: hidden;
+}
+.pedia-head {
+    margin-bottom: 30px;
+}
+.pedia-head h1 {
+    color: #2a3550;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+.pedia-head p {
+    font-size: 20px;
+    padding: 0 150px;
+    color: #556080;
+    align-items: center;
+    text-align: center;
+}
+
+.pedia-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pedia-items p {
+    text-align: justify;
+}
+
+.pedia-body img {
+    width: 100%; 
+    max-width: 357px; 
+    height: auto;
+}
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px; 
+    width: calc(100% - 40px);
+    max-width: 400px;
+}
+.pedia-body button {
+    background-color: #F4AF1B;
+    color: white;
+    padding: 10px 25px; 
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.pedia-body h3 {
+    font-size: 23px;
+    font-weight: bold;
+    color: #3D4866;
+    margin-bottom: 10px;
+}
+.pedia-body p {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+footer {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    background-color: #3D4866;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-family: 'Poppins',sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+	.menu {
+		display: none;
+	}
+    .logo img {
+        width: 80px;
+    }
+    .navbar {
+        padding: 20px 100px;
+        overflow-x: hidden;
+    }
+	.menu.aktif{
+		display:inline-block;
+		position: fixed;
+		top: 64px;
+		/* background: #212121; */
+		padding: 10px 20px;
+        margin-inline-end: auto;
+        margin-top: 25px;
+		right: 0;
+		left: 0;
+	}
+ 
+	.menu.aktif li a{
+		padding: 10px;
+		display: inline-block !important;
+	}
+	.tombol {
+		display: block;
+	}
+    .content .home {
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .home-description h1 {
+        margin-left: 20px;
+    }
+    .home-description p {
+        margin-left: 20px;
+    }
+    .home-description button {
+        margin-left: 20px;
+    }
+    .home-image {
+        text-align: center;
+    }
+    .home-image img {
+        width: 400px;
+        display: block;
+        margin: auto;
+    }
+    .content about {
+        flex-direction: column;
+    }
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-desc {
+        padding: 1px;
+    }
+    .about-desc p {
+        margin-top: 1px;
+    }
+    .about-image img {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .content article.about3 {
+        flex-direction: column;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .content article.about3 > * {
+        width: 100%;
+        text-align: center;
+    }
+    .about3-image img {
+        width: 400px;
+        padding-left: 0px;
+    }
+    .support {
+        padding: 10px;
+        overflow-x: hidden; 
+    }
+
+    .support-title h1 {
+        font-size: 28px;
+    }
+
+    .support .logos {
+        padding: 10px 0;
+    }
+
+    .logo-slide {
+        width: calc(300%); 
+    }
+
+    .logo-slide img {
+        width: 150px;
+        padding: 0 20px;
+        margin: 20px 5px;
+    }
+    .pedia {
+        padding: 0 50px; 
+        margin-bottom: 20px; 
+        overflow-x: hidden;
+    }
+
+    .pedia-head h1 {
+        font-size: 28px;
+    }
+
+    .pedia-head p {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    .pedia-items {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .card2 {
+        width: 100%;
+        max-width: none; 
+        margin: 10px 0;
+    }
+
+    .pedia-body img {
+        width: 100%;
+        max-width: none;
+        margin: 10px 0;
+    }
+
+    .pedia-body button {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .pedia-body h3 {
+        font-size: 20px;
+    }
+
+    .pedia-body p {
+        font-size: 14px;
+    }
+    
+}
