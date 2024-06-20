@@ -3,8 +3,8 @@ This website is used as a profile of hay (Hair Healthy), as well as a place to p
 
 ## Getting Started
 
-* Clone the Repository
+* Clone the Repository <br/>
   Clone the hay-web-profile project to your local computer by running the following command: <br/>
   cd https://github.com/Hay-Hair-Healthy/hay-web-profile.git
-* How to run locally
+* How to run locally <br/>
   Open the cloned hay-web-profile folder, click index.html and select your preferred web browser to run the web profile view locally.
